@@ -43,3 +43,4 @@ cscope.files
 lib
 sim_test/sim_relay/sim_relay
 tags
+test/test

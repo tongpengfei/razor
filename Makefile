@@ -1,4 +1,4 @@
-SUBDIR = bbr  cc  common  estimator  pacing sim_transport
+SUBDIR = bbr  cc  common  estimator  pacing sim_transport test
 
 all-recursive clean-recursive depend-recursive install-recursive release-recursive:
 	@target=`echo $@ | sed s/-recursive//`; \

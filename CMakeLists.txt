@@ -3,7 +3,7 @@ project(razor)
 
 option(RAZOR_BUILD_SHARED "Build razor as shared library" OFF)
 option(RAZOR_BUILD_SIM_TRANSPORT "Build sim_transport" OFF)
-option(RAZOR_BUILD_RAZOR_TESTS "Build unittests" OFF)
+option(RAZOR_BUILD_RAZOR_TESTS "Build unittests" ON)
 
 file(GLOB_RECURSE RAZOR_SRC_FILES 
     bbr/*
