@@ -38,3 +38,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+.gitignore
+cscope.files
+lib
+sim_test/sim_relay/sim_relay
+tags
